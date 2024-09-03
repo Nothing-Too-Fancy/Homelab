@@ -21,3 +21,6 @@
 - Install Unbound
   `sudo apt install unbound`
 - Configure Unbound https://docs.pi-hole.net/guides/dns/unbound/
+- Set Unbound address as upstream DNS server on Pi Hole admin page  
+  ![image](https://github.com/user-attachments/assets/91d00f39-6e84-4599-b8e5-ca3cb42add2d)
+
