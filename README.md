@@ -10,3 +10,14 @@
 - Install Proxmox 8.2 VE iso on one 250GB SSD - USB Imager
 - Install live VMs on second 250GB SSD
 - Backup VMs and Isos on HDD
+
+## Pi Hole w/Unbound
+- Raspberry Pi 4B w/ 32GB micro SSD
+- DietPi OS
+- Install Pi-Hole 
+  `curl -sSL https://install.pi-hole.net | bash`
+- Configure ASUS gateway to use Pi hole as DNS https://www.asus.com/support/faq/1046062/
+- Setup clients to use Pi Hole DNS server if not automatically being routed
+- Install Unbound
+  `sudo apt install unbound`
+- Configure Unbound https://docs.pi-hole.net/guides/dns/unbound/
