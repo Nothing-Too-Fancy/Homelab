@@ -6,12 +6,12 @@
 - Nvidia GeForce 960 GPU
 - 2x 250GB Samsung SATA SSD
 - 1x 1TB HDD
-## Proxmox
-- Install Proxmox 8.2 VE iso on one 250GB SSD - USB Imager
-- Install live VMs on second 250GB SSD
-- Backup VMs and Isos on HDD
+## Proxmox - 192.168.50.2
+- Proxmox 8.4 VE in ZFS Mirror(Raid1) x2 250GB SSD
+- Shared Proxmox boot os and VM/CT store
+- 1TB HDD for Data store
 
-## Pi Hole w/Unbound
+## Pi Hole w/Unbound - 192.168.50.129
 - Raspberry Pi 4B w/ 32GB micro SSD
 - DietPi OS
 - Install Pi-Hole 
