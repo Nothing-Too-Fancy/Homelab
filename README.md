@@ -17,6 +17,7 @@
 - Install Pi-Hole 
   `curl -sSL https://install.pi-hole.net | bash`
 - Configure ASUS gateway to use Pi hole as DNS https://www.asus.com/support/faq/1046062/
+- DHCP reserve 192.168.50.129
 - Setup clients to use Pi Hole DNS server if not automatically being routed
 - Install Unbound
   `sudo apt install unbound`
@@ -24,3 +25,12 @@
 - Set Unbound address as upstream DNS server on Pi Hole admin page  
   ![image](https://github.com/user-attachments/assets/91d00f39-6e84-4599-b8e5-ca3cb42add2d)
 
+- TODO: Setup backups
+
+## PiVPN - 192.168.50.129
+- Same Raspberry Pi as PiHole
+- Install PiVPN
+  'curl -L https://install.pivpn.io | bash'
+- Install as Wireguard
+- Port forward static IP:51820 UDP
+- 
