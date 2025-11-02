@@ -1,4 +1,3 @@
-# Planning
 ## Server Specs
 - Corsair 200R case
 - Gigabyte B85M-D3H Motherboard
